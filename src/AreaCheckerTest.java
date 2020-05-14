@@ -48,7 +48,7 @@ public class AreaCheckerTest {
     @Test
     public void checkWithPoint_AllZero_True() {
         Point p = new Point(0.0,0.0,0.0);
-        Assert.assertTrue(new AreaChecker().check(p)); //todo return true, is it ok?
+        Assert.assertTrue(new AreaChecker().check(p));
     }
 
     @Test
